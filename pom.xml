@@ -4,7 +4,7 @@
 
 	<groupId>gliwson.pl</groupId>
 	<artifactId>spring-security-db-us</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 
 	<name>spring-security-db-us</name>
 	<description>Spring security project with database and custom UserService</description>
@@ -22,8 +22,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>11</java.version>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<junit.version>5.3.2</junit.version>
 		<project.scm.id>github</project.scm.id>
 	</properties>
@@ -69,11 +69,19 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/Gliwson/SpringSecurity.git</developerConnection>
 		<url>https://github.com/Gliwson/SpringSecurity</url>
-		<tag>HEAD</tag>
+		<tag>spring-security-db-us-0.0.2</tag>
 	</scm>
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
