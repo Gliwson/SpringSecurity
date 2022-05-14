@@ -4,7 +4,7 @@
 
 	<groupId>gliwson.pl</groupId>
 	<artifactId>spring-security-db-us</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 
 	<name>spring-security-db-us</name>
 	<description>Spring security project with database and custom UserService</description>
@@ -69,7 +69,7 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/Gliwson/SpringSecurity.git</developerConnection>
 		<url>https://github.com/Gliwson/SpringSecurity</url>
-		<tag>spring-security-db-us-0.0.3</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<build>
