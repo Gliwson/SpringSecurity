@@ -4,7 +4,7 @@
 
 	<groupId>gliwson.pl</groupId>
 	<artifactId>spring-security-db-us</artifactId>
-	<version>0.0.6-SNAPSHOT</version>
+	<version>0.0.5-SNAPSHOT</version>
 
 	<name>spring-security-db-us</name>
 	<description>Spring security project with database and custom UserService</description>
